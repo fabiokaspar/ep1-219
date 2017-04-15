@@ -19,9 +19,12 @@ MODOS=('com' 'sem')
 
 make
 mkdir results
+mkdir graphics
 
 for NAME in ${NAMES[@]}; do
     mkdir results/$NAME
+    mkdir graphics/$NAME
+
 
     if [ $NAME = 'mandelbrot_seq' ] 
     then    
@@ -29,10 +32,10 @@ for NAME in ${NAMES[@]}; do
             for ((i = 1; i <= $ITERATIONS_SIZE; i++)); do
                 for ((j = 1; j <= MEASUREMENTS; j++)); do
 
-                    perf stat -r 1 ./$NAME -2.5 1.5 -2.0 2.0 $SIZE $MODO >> "full_$MODO.log" 2>&1
-                    #perf stat -r $MEASUREMENTS ./$NAME -0.8 -0.7 0.05 0.15 $SIZE >> seahorse.log 2>&1
-                    #perf stat -r $MEASUREMENTS ./$NAME 0.175 0.375 -0.1 0.1 $SIZE >> elephant.log 2>&1
-                    #perf stat -r $MEASUREMENTS ./$NAME -0.188 -0.012 0.554 0.754 $SIZE >> triple_spiral.log 2>&1
+                    #perf stat -r 1 ./$NAME -2.5 1.5 -2.0 2.0 $SIZE $MODO >> "full_$MODO.log" 2>&1
+                    #perf stat -r 1 ./$NAME -0.8 -0.7 0.05 0.15 $SIZE $MODO >> "seahorse_$MODO.log" 2>&1
+                    perf stat -r 1 ./$NAME 0.175 0.375 -0.1 0.1 $SIZE $MODO >> "elephant_$MODO.log" 2>&1
+                    #perf stat -r 1 ./$NAME -0.188 -0.012 0.554 0.754 $SIZE $MODO >> "triple_spiral_$MODO.log" 2>&1
                 done
                 
                 SIZE=$(($SIZE * 2))
@@ -48,10 +51,10 @@ for NAME in ${NAMES[@]}; do
             for ((i = 1; i <= $ITERATIONS_SIZE; i++)); do
                 for ((j = 1; j <= MEASUREMENTS; j++)); do
 
-                    perf stat -r 1 ./$NAME -2.5 1.5 -2.0 2.0 $SIZE $NT >> 'full_'$NT'.log' 2>&1
-                    #perf stat -r $MEASUREMENTS ./$NAME -0.8 -0.7 0.05 0.15 $SIZE >> seahorse.log 2>&1
-                    #perf stat -r $MEASUREMENTS ./$NAME 0.175 0.375 -0.1 0.1 $SIZE >> elephant.log 2>&1
-                    #perf stat -r $MEASUREMENTS ./$NAME -0.188 -0.012 0.554 0.754 $SIZE >> triple_spiral.log 2>&1
+                    #perf stat -r 1 ./$NAME -2.5 1.5 -2.0 2.0 $SIZE $NT >> 'full_'$NT'.log' 2>&1
+                    #perf stat -r 1 ./$NAME -0.8 -0.7 0.05 0.15 $SIZE $NT >> 'seahorse_'$NT'.log' 2>&1
+                    #perf stat -r 1 ./$NAME 0.175 0.375 -0.1 0.1 $SIZE $NT >> 'elephant_'$NT'.log' 2>&1
+                    perf stat -r 1 ./$NAME -0.188 -0.012 0.554 0.754 $SIZE $NT >> 'triple_spiral_'$NT'.log' 2>&1
                 done
                 
                 SIZE=$(($SIZE * 2))
@@ -64,8 +67,7 @@ for NAME in ${NAMES[@]}; do
 
 done
 
-#rm output.ppm
-
+rm output.ppm
 
 
 
