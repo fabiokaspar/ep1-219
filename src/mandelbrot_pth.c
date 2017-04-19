@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <unistd.h>
+#include <pthread.h>
 
 double c_x_min;
 double c_x_max;
@@ -40,6 +42,11 @@ int colors[17][3] = {
                         {106, 52, 3},
                         {0, 0, 0},
                     };
+typedef struct
+{
+    int i_y_min_thread;
+    int i_y_max_thread;
+} thread_arg;
 
 void allocate_image_buffer(){
     int rgb_size = 3;
@@ -113,7 +120,9 @@ void write_to_file(){
     fclose(file);
 };
 
-void compute_mandelbrot(){
+void *compute_mandelbrot_thread(void *faixa){
+
+    thread_arg *fx = (thread_arg *) faixa;
     double z_x;
     double z_y;
     double z_x_squared;
@@ -126,8 +135,12 @@ void compute_mandelbrot(){
 
     double c_x;
     double c_y;
+   
+    int i_y_min_thread = fx->i_y_min_thread;
+    int i_y_max_thread = fx->i_y_max_thread;
 
-    for(i_y = 0; i_y < i_y_max; i_y++){
+
+    for(i_y = i_y_min_thread; i_y < i_y_max_thread; i_y++){
         c_y = c_y_min + i_y * pixel_height;
 
         if (fabs(c_y) < pixel_height / 2){
@@ -157,6 +170,32 @@ void compute_mandelbrot(){
             update_rgb_buffer(iteration, i_x, i_y);
         };
     };
+    pthread_exit((void *)NULL);
+};
+
+void compute_mandelbrot(){
+     int i, limite, soma = 0;
+    
+    thread_arg faixa[num_threads];
+    pthread_t tid[num_threads];
+    limite =   i_y_max / num_threads;
+    if ((limite * num_threads) < i_y_max)
+       limite += 1;
+    for (i = 0; i < num_threads; i++) {
+        faixa[i].i_y_min_thread = soma;
+        soma += limite;
+        if (soma > i_y_max)
+           soma = i_y_max;
+        faixa[i].i_y_max_thread = soma;
+        if (pthread_create(&tid[i], NULL, compute_mandelbrot_thread, (void *)&faixa[i])) {
+		perror("pthread_create");
+		exit(EXIT_FAILURE);
+		}
+    }
+    for (i = 0; i < num_threads; i++) {
+    	pthread_join(tid[i], NULL);
+    }
+    pthread_exit((void *)NULL);
 };
 
 int main(int argc, char *argv[]){
