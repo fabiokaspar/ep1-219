@@ -43,6 +43,7 @@ int colors[17][3] = {
 
 void allocate_image_buffer(){
     int rgb_size = 3;
+    image_buffer_size = image_size * image_size;
     image_buffer = (unsigned char **) malloc(sizeof(unsigned char *) * image_buffer_size);
 
     for(int i = 0; i < image_buffer_size; i++){
@@ -73,7 +74,6 @@ void init(int argc, char *argv[]){
 
         i_x_max           = image_size;
         i_y_max           = image_size;
-        image_buffer_size = image_size * image_size;
 
         pixel_width       = (c_x_max - c_x_min) / i_x_max;
         pixel_height      = (c_y_max - c_y_min) / i_y_max;
@@ -85,18 +85,14 @@ void update_rgb_buffer(int iteration, int x, int y){
 
     if(iteration == iteration_max){
         color = 16;
-
-        image_buffer[(i_y_max * y) + x][0] = color;
-        image_buffer[(i_y_max * y) + x][1] = color;
-        image_buffer[(i_y_max * y) + x][2] = color;
     }
     else {
         color = iteration % gradient_size;
-
-        image_buffer[(i_y_max * y) + x][0] = colors[color][0];
-        image_buffer[(i_y_max * y) + x][1] = colors[color][1];
-        image_buffer[(i_y_max * y) + x][2] = colors[color][2];
     };
+
+    image_buffer[(i_x_max * y) + x][0] = colors[color][0];
+    image_buffer[(i_x_max * y) + x][1] = colors[color][1];
+    image_buffer[(i_x_max * y) + x][2] = colors[color][2];
 };
 
 void write_to_file(){
@@ -159,19 +155,29 @@ void compute_mandelbrot(){
                 z_y_squared = z_y * z_y;
             };
 
-            update_rgb_buffer(iteration, i_x, i_y);
+            // as duas versões devem executar a condição do if
+            if (modo[0] == 'c') {
+                update_rgb_buffer(iteration, i_x, i_y);
+            }
         };
     };
 };
 
+
 int main(int argc, char *argv[]){
     init(argc, argv);
 
-    allocate_image_buffer();
+    // as duas versões devem executar a condição dos ifs 
+    // de qualquer forma
+    if (modo[0] == 'c') {
+        allocate_image_buffer();
+    }
 
     compute_mandelbrot();
 
-    write_to_file();
+    if (modo[0] == 'c') {
+        write_to_file();
+    }
 
     return 0;
 };
