@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <unistd.h>
 #include <pthread.h>
 
 double c_x_min;
@@ -16,6 +15,7 @@ int iteration_max = 200;
 
 int image_size;
 unsigned char **image_buffer;
+char modo[5];
 
 int num_threads;
 int i_x_max;
@@ -42,12 +42,6 @@ int colors[17][3] = {
                         {106, 52, 3},
                         {0, 0, 0},
                     };
-typedef struct
-{
-    int tid;
-    int i_y_min_thread;
-    int i_y_max_thread;
-} thread_arg;
 
 void allocate_image_buffer(){
     int rgb_size = 3;
@@ -59,15 +53,15 @@ void allocate_image_buffer(){
 };
 
 void init(int argc, char *argv[]){
-    if(argc < 7){
-        printf("usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads\n");
+    if(argc < 8){
+        printf("usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao\n");
         printf("image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}\n");
         printf("#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}\n");
         printf("examples with image_size = 11500:\n\n");
-        printf("    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1\n");
-        printf("    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2\n");
-        printf("    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4\n");
-        printf("    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32\n");
+        printf("    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com\n");
+        printf("    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem\n");
+        printf("    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com\n");
+        printf("    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem\n");
         exit(0);
     }
     else {
@@ -77,6 +71,8 @@ void init(int argc, char *argv[]){
         sscanf(argv[4], "%lf", &c_y_max);
         sscanf(argv[5], "%d", &image_size);
         sscanf(argv[6], "%d", &num_threads);
+        sscanf(argv[7], "%s", &modo[0]);
+        printf("MODO = %s I/O e alloc. memoria\n", &modo[0]);
 
         i_x_max           = image_size;
         i_y_max           = image_size;
@@ -121,9 +117,9 @@ void write_to_file(){
     fclose(file);
 };
 
-void *compute_mandelbrot_thread(void *faixa){
+void *compute_mandelbrot_thread(void *i){
 
-    thread_arg *fx = (thread_arg *) faixa;
+    int id = (int) i;
     double z_x;
     double z_y;
     double z_x_squared;
@@ -136,13 +132,8 @@ void *compute_mandelbrot_thread(void *faixa){
 
     double c_x;
     double c_y;
-   
-    int i_y_min_thread = fx->i_y_min_thread;
-    int i_y_max_thread = fx->i_y_max_thread;
 
-    printf("it's me, thr %d\n", fx->tid);
-
-    for(i_y = i_y_min_thread; i_y < i_y_max_thread; i_y++){
+    for(i_y = id; i_y < i_y_max; i_y += num_threads){
         c_y = c_y_min + i_y * pixel_height;
 
         if (fabs(c_y) < pixel_height / 2){
@@ -169,54 +160,45 @@ void *compute_mandelbrot_thread(void *faixa){
                 z_y_squared = z_y * z_y;
             };
 
-            update_rgb_buffer(iteration, i_x, i_y);
+            if (modo[0] == 'c') {
+                update_rgb_buffer(iteration, i_x, i_y);
+            }
         };
     };
-
     pthread_exit(NULL);
 };
 
 void compute_mandelbrot(){
-    int i, limite, soma_y = 0;
+    int i;
     pthread_t tid[num_threads];
-    thread_arg faixa[num_threads];
-    limite =   i_y_max / num_threads;
-    
-    if ((limite * num_threads) < i_y_max)
-       limite += 1;
-    
+
     for (i = 0; i < num_threads; i++) {
-        faixa[i].i_y_min_thread = soma_y;
-        soma_y += limite;
-        
-        if (soma_y > i_y_max)
-           soma_y = i_y_max;
-        
-        faixa[i].i_y_max_thread = soma_y;
-        faixa[i].tid = i;
-        
-        if (pthread_create(&tid[i], NULL, compute_mandelbrot_thread, (void *)&faixa[i])) {
-            perror("pthread_creating failure");
-            exit(EXIT_FAILURE);
+        if (pthread_create(&tid[i], NULL, compute_mandelbrot_thread, (void *) i)) {
+		  perror("pthread_creating failure");
++            exit(EXIT_FAILURE);
 		}
     }
-    
     for (i = 0; i < num_threads; i++) {
     	pthread_join(tid[i], NULL);
     }
-
 };
 
 int main(int argc, char *argv[]){
     init(argc, argv);
 
-    allocate_image_buffer();
+    // as duas versões devem executar a condição dos ifs 
+    // de qualquer forma
+    if (modo[0] == 'c') {
+        allocate_image_buffer();
+    }
 
     compute_mandelbrot();
 
-    write_to_file();
+    if (modo[0] == 'c') {
+        write_to_file();
+    }
 
     pthread_exit(NULL);
-
+    
     return 0;
 };
