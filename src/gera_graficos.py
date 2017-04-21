@@ -4,6 +4,8 @@
 # Referencia de como fazer boxplot: 
 # http://blog.bharatbhole.com/creating-boxplots-with-matplotlib/
 
+# versão do python usada: Python 2.7.6
+
 from __future__ import unicode_literals
 
 import numpy as np
@@ -18,7 +20,7 @@ import statistics as stat
 
 #id_fig = 0
 num_medicoes = 10
-num_entradas = 5
+num_entradas = 7
 lista_diretorios = ["mandelbrot_seq", "mandelbrot_pth", "mandelbrot_omp"]
 regioes = ['full', 'seahorse', 'elephant', 'triple_spiral']
 
@@ -40,7 +42,7 @@ for diretorio in lista_diretorios:
 		
 		texto = arq.read() 
 
-		tempos = re.findall(r"0,\d+ seconds time elapsed", texto)
+		tempos = re.findall(r"\d+,\d+ seconds time elapsed", texto)
 		numeros = []
 
 		for x in tempos:
@@ -49,7 +51,7 @@ for diretorio in lista_diretorios:
 
 		# debug
 		print diretorio+"/"+arquivo
-		
+		#print len(numeros)
 
 
 		arq.close()
@@ -64,9 +66,9 @@ for diretorio in lista_diretorios:
 		mediana = []
 		dp = []
 
-		for j in range(num_entradas):
+		for j in range(0, num_entradas):
 			## define uma amostra
-			amostra = numeros[num_medicoes * j : num_medicoes * (j+1)]
+			amostra = numeros[(num_medicoes * j) : (num_medicoes * (j+1))]
 			amostra.sort()
 
 			media.append(stat.mean(amostra))
@@ -75,10 +77,9 @@ for diretorio in lista_diretorios:
 
 			##  E a adiciona numa coleção global delas  
 			data_to_plot.append(amostra)
-			print amostra
-			print "**************\n"
+			#print amostra
+			#print "**************\n"
 
-		
 		
 		# Cria uma instancia de figura e eixos
 		fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(10, 9))
@@ -86,26 +87,29 @@ for diretorio in lista_diretorios:
 		# Cria o boxplot
 		box_plot = ax.boxplot(data_to_plot)
 
-		id_box = 0
-		for line in box_plot['boxes']:
-			x, y = line.get_xydata()[0]
-			plt.text(x+0.1, y+0.008, rotulos[id_box], color='red', fontsize=11, horizontalalignment='right', verticalalignment='top')
-			id_box += 1
+		#id_box = 0
+		#for line in box_plot['boxes']:
+		#	x, y = line.get_xydata()[0]
+		#	plt.text(x+0.1, y+0.008, rotulos[id_box], color='red', fontsize=11, horizontalalignment='right', verticalalignment='top')
+		#	id_box += 1
 
 		col_labels = ['média', 'mediana', 'desvio padrão', '< valor obs.', '> valor obs.']
 		row_labels = []
 		table_vals = []
+		maximo = 0
 
 		for j in range(num_entradas):
 			table_vals.append([ media[j], mediana[j], dp[j], data_to_plot[j][0], data_to_plot[j][-1] ])
-			row_labels.append('box '+ rotulos[j])
+			row_labels.append('entr. '+ entradas[j])
 
+			if data_to_plot[j][-1] > maximo:
+				maximo = data_to_plot[j][-1]
 
 		the_table = plt.table(cellText=table_vals,
                   colWidths = [0.1] * 5,
                   rowLabels=row_labels,
                   colLabels=col_labels,
-                  bbox=[0, 1.2, 0.8, 0.3],
+                  bbox=[0.1, 1.2, 0.8, 0.3],
                   fontsize=24)
 
 		the_table.scale(1.8, 1.8)
@@ -139,7 +143,16 @@ for diretorio in lista_diretorios:
 		## Remove top axes and right axes ticks
 		ax.get_xaxis().tick_bottom()
 		ax.get_yaxis().tick_left()
-		plt.yticks(np.arange(0, 0.165, 0.005))
+
+		maximo = round(maximo, 3) 
+		interval = round(maximo/30.0, 3)
+		print "maximo = ", maximo
+		print "interval = ", interval
+		print "*************************"
+		
+		plt.yticks(np.arange(0, maximo + interval, interval))
 		
 		# Salva a figura
 		fig.savefig('graphics/'+diretorio+'/'+arquivo[0:-4]+'.png', bbox_inches='tight')
+
+	print "\n"

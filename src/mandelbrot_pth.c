@@ -44,6 +44,7 @@ int colors[17][3] = {
                     };
 typedef struct
 {
+    int tid;
     int i_y_min_thread;
     int i_y_max_thread;
 } thread_arg;
@@ -139,6 +140,7 @@ void *compute_mandelbrot_thread(void *faixa){
     int i_y_min_thread = fx->i_y_min_thread;
     int i_y_max_thread = fx->i_y_max_thread;
 
+    printf("it's me, thr %d\n", fx->tid);
 
     for(i_y = i_y_min_thread; i_y < i_y_max_thread; i_y++){
         c_y = c_y_min + i_y * pixel_height;
@@ -170,32 +172,39 @@ void *compute_mandelbrot_thread(void *faixa){
             update_rgb_buffer(iteration, i_x, i_y);
         };
     };
-    pthread_exit((void *)NULL);
+
+    pthread_exit(NULL);
 };
 
 void compute_mandelbrot(){
-     int i, limite, soma = 0;
-    
-    thread_arg faixa[num_threads];
+    int i, limite, soma_y = 0;
     pthread_t tid[num_threads];
+    thread_arg faixa[num_threads];
     limite =   i_y_max / num_threads;
+    
     if ((limite * num_threads) < i_y_max)
        limite += 1;
+    
     for (i = 0; i < num_threads; i++) {
-        faixa[i].i_y_min_thread = soma;
-        soma += limite;
-        if (soma > i_y_max)
-           soma = i_y_max;
-        faixa[i].i_y_max_thread = soma;
+        faixa[i].i_y_min_thread = soma_y;
+        soma_y += limite;
+        
+        if (soma_y > i_y_max)
+           soma_y = i_y_max;
+        
+        faixa[i].i_y_max_thread = soma_y;
+        faixa[i].tid = i;
+        
         if (pthread_create(&tid[i], NULL, compute_mandelbrot_thread, (void *)&faixa[i])) {
-		perror("pthread_create");
-		exit(EXIT_FAILURE);
+            perror("pthread_creating failure");
+            exit(EXIT_FAILURE);
 		}
     }
+    
     for (i = 0; i < num_threads; i++) {
     	pthread_join(tid[i], NULL);
     }
-    pthread_exit((void *)NULL);
+
 };
 
 int main(int argc, char *argv[]){
@@ -206,6 +215,8 @@ int main(int argc, char *argv[]){
     compute_mandelbrot();
 
     write_to_file();
+
+    pthread_exit(NULL);
 
     return 0;
 };
