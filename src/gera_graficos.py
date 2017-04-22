@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import statistics as stat
 
 num_medicoes = 10
-num_entradas = 4
+num_entradas = 10
 lista_diretorios = ["mandelbrot_seq", "mandelbrot_pth", "mandelbrot_omp"]
 regioes = ['full', 'seahorse', 'elephant', 'triple_spiral']
 
@@ -51,7 +51,7 @@ for diretorio in lista_diretorios:
 		# debug
 		print diretorio+"/"+arquivo
 		print len(numeros)
-		print numeros
+		#print numeros
 		arq.close()
 
 		#################### gera o grafico ##########################
