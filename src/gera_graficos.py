@@ -20,7 +20,7 @@ import statistics as stat
 
 #id_fig = 0
 num_medicoes = 10
-num_entradas = 7
+num_entradas = 10
 lista_diretorios = ["mandelbrot_seq", "mandelbrot_pth", "mandelbrot_omp"]
 regioes = ['full', 'seahorse', 'elephant', 'triple_spiral']
 
@@ -144,8 +144,8 @@ for diretorio in lista_diretorios:
 		ax.get_xaxis().tick_bottom()
 		ax.get_yaxis().tick_left()
 
-		maximo = round(maximo, 3) 
-		interval = round(maximo/30.0, 3)
+		maximo = round(maximo, 5) 
+		interval = round(maximo/30.0, 5)
 		print "maximo = ", maximo
 		print "interval = ", interval
 		print "*************************"

@@ -100,7 +100,7 @@ void update_rgb_buffer(int iteration, int x, int y){
 
 void write_to_file(){
     FILE * file;
-    char * filename               = "output.ppm";
+    char * filename               = "output_pth.ppm";
     char * comment                = "# ";
 
     int max_color_component_value = 255;
@@ -174,8 +174,8 @@ void compute_mandelbrot(){
 
     for (i = 0; i < num_threads; i++) {
         if (pthread_create(&tid[i], NULL, compute_mandelbrot_thread, (void *) i)) {
-		  perror("pthread_creating failure");
-+            exit(EXIT_FAILURE);
+            perror("pthread_creating failure");
+            exit(EXIT_FAILURE);
 		}
     }
     for (i = 0; i < num_threads; i++) {
