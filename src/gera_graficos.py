@@ -18,9 +18,8 @@ import matplotlib.pyplot as plt
 
 import statistics as stat
 
-#id_fig = 0
 num_medicoes = 10
-num_entradas = 10
+num_entradas = 4
 lista_diretorios = ["mandelbrot_seq", "mandelbrot_pth", "mandelbrot_omp"]
 regioes = ['full', 'seahorse', 'elephant', 'triple_spiral']
 
@@ -33,7 +32,7 @@ while len(entradas) < num_entradas:
 	entradas.append(str(int(entradas[-1]) * 2))
 
 
-###################### parser dos valores do arquivo #############################
+###################### parser dos tempos de cada arquivo #############################
 for diretorio in lista_diretorios:
 	lista_arquivos = os.listdir("results/"+diretorio)
 
@@ -42,7 +41,7 @@ for diretorio in lista_diretorios:
 		
 		texto = arq.read() 
 
-		tempos = re.findall(r"\d+,\d+ seconds time elapsed", texto)
+		tempos = re.findall(r"\d+[,.]\d+ seconds time elapsed", texto)
 		numeros = []
 
 		for x in tempos:
@@ -51,16 +50,12 @@ for diretorio in lista_diretorios:
 
 		# debug
 		print diretorio+"/"+arquivo
-		#print len(numeros)
-
-
+		print len(numeros)
+		print numeros
 		arq.close()
 
 		#################### gera o grafico ##########################
 
-		#numeros = np.asarray(numeros)
-		#print numeros
-			
 		data_to_plot = []
 		media = []
 		mediana = []
@@ -77,8 +72,6 @@ for diretorio in lista_diretorios:
 
 			##  E a adiciona numa coleção global delas  
 			data_to_plot.append(amostra)
-			#print amostra
-			#print "**************\n"
 
 		
 		# Cria uma instancia de figura e eixos
@@ -87,11 +80,6 @@ for diretorio in lista_diretorios:
 		# Cria o boxplot
 		box_plot = ax.boxplot(data_to_plot)
 
-		#id_box = 0
-		#for line in box_plot['boxes']:
-		#	x, y = line.get_xydata()[0]
-		#	plt.text(x+0.1, y+0.008, rotulos[id_box], color='red', fontsize=11, horizontalalignment='right', verticalalignment='top')
-		#	id_box += 1
 
 		col_labels = ['média', 'mediana', 'desvio padrão', '< valor obs.', '> valor obs.']
 		row_labels = []
@@ -155,4 +143,4 @@ for diretorio in lista_diretorios:
 		# Salva a figura
 		fig.savefig('graphics/'+diretorio+'/'+arquivo[0:-4]+'.png', bbox_inches='tight')
 
-	print "\n"
+	print ''

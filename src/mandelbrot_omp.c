@@ -118,9 +118,10 @@ void write_to_file(){
 };
 
 void compute_mandelbrot(){
-    int id;
-    #pragma omp parallel num_threads(num_threads) //regiao q sera dividido o processamento
-	{
+    //regiao q sera dividido o processamento
+    #pragma omp parallel num_threads(num_threads) 
+    {
+        int id;
 	    double z_x;
 	    double z_y;
 	    double z_x_squared;
@@ -130,7 +131,6 @@ void compute_mandelbrot(){
 	    int iteration;
 	    int i_x;
 	    int i_y;
-	    
 
 	    double c_x;
 	    double c_y;
