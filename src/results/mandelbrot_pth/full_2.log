@@ -1,0 +1,2500 @@
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.353271      task-clock (msec)         #    0.536 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.142 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000658893 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.334513      task-clock (msec)         #    0.509 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.155 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000657291 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.327056      task-clock (msec)         #    0.505 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.153 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000647957 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.293037      task-clock (msec)         #    0.509 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.177 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000575174 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.274027      task-clock (msec)         #    0.453 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.186 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000605523 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.306200      task-clock (msec)         #    0.529 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.173 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000579163 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.277141      task-clock (msec)         #    0.502 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.188 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000552079 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.279449      task-clock (msec)         #    0.490 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.190 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000570808 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.264806      task-clock (msec)         #    0.517 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.185 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000512660 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 16 2':
+
+          0.298995      task-clock (msec)         #    0.529 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.174 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000565560 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.324157      task-clock (msec)         #    0.533 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.154 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000607834 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.301640      task-clock (msec)         #    0.474 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.169 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000636332 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.306353      task-clock (msec)         #    0.497 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.170 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000616480 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.307783      task-clock (msec)         #    0.515 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.162 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000597869 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.369939      task-clock (msec)         #    0.519 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.132 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000713080 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.382901      task-clock (msec)         #    0.519 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.131 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000737236 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.359635      task-clock (msec)         #    0.547 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.147 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000657274 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.307827      task-clock (msec)         #    0.512 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.172 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000601257 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.320757      task-clock (msec)         #    0.513 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.159 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000625313 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 32 2':
+
+          0.390026      task-clock (msec)         #    0.499 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.131 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000782258 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.356423      task-clock (msec)         #    0.514 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.149 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000693264 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.273796      task-clock (msec)         #    0.496 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.179 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000552550 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.388186      task-clock (msec)         #    0.548 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.137 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000707943 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.429639      task-clock (msec)         #    0.535 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.121 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000803070 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.366060      task-clock (msec)         #    0.532 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.145 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000687459 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.305681      task-clock (msec)         #    0.460 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.164 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000664644 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.329022      task-clock (msec)         #    0.512 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.158 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000642256 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.429300      task-clock (msec)         #    0.511 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.116 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000839946 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.453439      task-clock (msec)         #    0.511 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.108 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000886720 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 64 2':
+
+          0.466233      task-clock (msec)         #    0.564 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.107 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000826314 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.539446      task-clock (msec)         #    0.574 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.096 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000939818 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.486120      task-clock (msec)         #    0.543 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.109 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000896031 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.458760      task-clock (msec)         #    0.547 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.109 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000839227 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.318763      task-clock (msec)         #    0.506 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.157 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000630499 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.462444      task-clock (msec)         #    0.546 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.112 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000847591 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.301719      task-clock (msec)         #    0.551 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.176 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000547663 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.259867      task-clock (msec)         #    0.512 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.192 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000508005 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.287787      task-clock (msec)         #    0.512 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.174 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000561656 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.301496      task-clock (msec)         #    0.528 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.166 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000571180 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 128 2':
+
+          0.287692      task-clock (msec)         #    0.541 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.184 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000531842 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.328675      task-clock (msec)         #    0.552 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.158 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000595285 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.311876      task-clock (msec)         #    0.551 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.167 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000566195 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.332644      task-clock (msec)         #    0.573 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.156 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000580487 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.280653      task-clock (msec)         #    0.534 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.178 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000525418 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.284843      task-clock (msec)         #    0.540 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.186 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000527905 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.303473      task-clock (msec)         #    0.543 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.168 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000558774 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.289566      task-clock (msec)         #    0.527 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.176 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000549898 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.277720      task-clock (msec)         #    0.536 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.184 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000517753 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.315261      task-clock (msec)         #    0.537 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.165 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000587118 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 256 2':
+
+          0.273254      task-clock (msec)         #    0.535 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.190 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000511108 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.278490      task-clock (msec)         #    0.530 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.187 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000525387 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.339027      task-clock (msec)         #    0.560 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.156 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000604919 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.276462      task-clock (msec)         #    0.443 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.192 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000623806 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.258897      task-clock (msec)         #    0.523 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.189 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000494752 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.389659      task-clock (msec)         #    0.578 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.128 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000674023 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.280097      task-clock (msec)         #    0.516 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.189 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000542636 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.298756      task-clock (msec)         #    0.494 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.167 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000604410 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.283445      task-clock (msec)         #    0.479 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                48      page-faults               #    0.169 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000591898 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.333003      task-clock (msec)         #    0.502 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.150 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000663568 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 512 2':
+
+          0.271240      task-clock (msec)         #    0.472 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.181 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000574466 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.274909      task-clock (msec)         #    0.492 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.193 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000558295 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.315382      task-clock (msec)         #    0.539 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.162 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000585213 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.292764      task-clock (msec)         #    0.491 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.171 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000596037 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.272507      task-clock (msec)         #    0.456 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.191 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000597878 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.293518      task-clock (msec)         #    0.499 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.181 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000587995 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.274567      task-clock (msec)         #    0.482 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.178 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000569293 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.281796      task-clock (msec)         #    0.462 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.177 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000610415 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.255818      task-clock (msec)         #    0.508 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.192 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000503682 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.291595      task-clock (msec)         #    0.528 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.178 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000552418 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 1024 2':
+
+          0.272560      task-clock (msec)         #    0.516 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.194 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000527973 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.290477      task-clock (msec)         #    0.528 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.169 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000549782 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.355238      task-clock (msec)         #    0.565 CPUs utilized          
+                 1      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.144 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000628209 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.294231      task-clock (msec)         #    0.540 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.180 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000545111 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.274747      task-clock (msec)         #    0.531 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.193 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000517518 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.329896      task-clock (msec)         #    0.577 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.161 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000571870 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.322050      task-clock (msec)         #    0.499 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.158 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000645719 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.372582      task-clock (msec)         #    0.601 CPUs utilized          
+                 1      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.132 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000619585 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.279039      task-clock (msec)         #    0.515 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.190 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000541972 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.270676      task-clock (msec)         #    0.479 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.188 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000564752 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 2048 2':
+
+          0.277960      task-clock (msec)         #    0.529 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.191 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000525223 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.301942      task-clock (msec)         #    0.526 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.172 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000574126 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.273489      task-clock (msec)         #    0.510 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.186 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000536423 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.334327      task-clock (msec)         #    0.534 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.153 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000626022 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.282771      task-clock (msec)         #    0.545 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.187 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000518956 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.271611      task-clock (msec)         #    0.541 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.180 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000502124 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.273583      task-clock (msec)         #    0.550 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                52      page-faults               #    0.190 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000497422 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.280816      task-clock (msec)         #    0.539 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.178 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000521451 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.300490      task-clock (msec)         #    0.554 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.176 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000542225 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.272616      task-clock (msec)         #    0.546 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.183 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000499619 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 4096 2':
+
+          0.271690      task-clock (msec)         #    0.538 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.184 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000505461 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.266511      task-clock (msec)         #    0.536 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.191 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000497588 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.269693      task-clock (msec)         #    0.532 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.182 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000507304 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.266522      task-clock (msec)         #    0.490 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                49      page-faults               #    0.184 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000543687 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.252127      task-clock (msec)         #    0.505 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.198 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000499620 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.263021      task-clock (msec)         #    0.525 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.190 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000501065 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.259480      task-clock (msec)         #    0.506 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.197 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000512612 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.269093      task-clock (msec)         #    0.534 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.186 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000504153 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.273919      task-clock (msec)         #    0.545 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                53      page-faults               #    0.193 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000502605 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.254409      task-clock (msec)         #    0.484 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.200 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000525521 seconds time elapsed
+
+usage: ./mandelbrot_pth c_x_min c_x_max c_y_min c_y_max image_size #threads modo_operacao
+image_size = {2^4 = 16, 32, 64, ... , 2^13 = 8192}
+#threads = {2^0 = 1, 2, 4, ... , 2^5 = 32}
+examples with image_size = 11500:
+
+    Full Picture:         ./mandelbrot_pth -2.5 1.5 -2.0 2.0 11500 1 com
+    Seahorse Valley:      ./mandelbrot_pth -0.8 -0.7 0.05 0.15 11500 2 sem
+    Elephant Valley:      ./mandelbrot_pth 0.175 0.375 -0.1 0.1 11500 4 com
+    Triple Spiral Valley: ./mandelbrot_pth -0.188 -0.012 0.554 0.754 11500 32 sem
+
+ Performance counter stats for './mandelbrot_pth -2.5 1.5 -2.0 2.0 8192 2':
+
+          0.272360      task-clock (msec)         #    0.531 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                50      page-faults               #    0.184 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000512589 seconds time elapsed
+
