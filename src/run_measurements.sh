@@ -46,7 +46,7 @@ for NAME in ${NAMES[@]}; do
        done
 
     else
-        MODO=${MODOS[0]}  #mude para 1 para NÃO obter a I/O
+        MODO=${MODOS[1]}  #mude para 0 para obter a I/O
             for ((NT = 1; $NT <= $NTHREADS_MAX; NT = $(($NT * 2)) )); do
 
                 for ((i = 1; i <= $ITERATIONS_SIZE; i++)); do
