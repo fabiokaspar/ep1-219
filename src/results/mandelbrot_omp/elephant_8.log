@@ -1,0 +1,1700 @@
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.847042      task-clock (msec)         #    1.979 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.041 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000933444 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.713708      task-clock (msec)         #    1.885 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.044 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000908956 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          2.165935      task-clock (msec)         #    2.042 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.003 M/sec                  
+                76      page-faults               #    0.035 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001060521 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.898882      task-clock (msec)         #    2.002 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.040 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000948266 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.960928      task-clock (msec)         #    2.015 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.039 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000972956 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.704045      task-clock (msec)         #    1.961 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.045 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000868925 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.846687      task-clock (msec)         #    1.870 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                77      page-faults               #    0.042 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000987707 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.647517      task-clock (msec)         #    1.899 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                77      page-faults               #    0.047 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000867730 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.852946      task-clock (msec)         #    2.084 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.041 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000888943 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 16 8 sem':
+
+          1.656085      task-clock (msec)         #    1.770 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.004 M/sec                  
+                76      page-faults               #    0.046 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.000935845 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          2.998726      task-clock (msec)         #    2.942 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                76      page-faults               #    0.025 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001019208 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          2.985545      task-clock (msec)         #    2.819 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                77      page-faults               #    0.026 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001058949 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          2.709620      task-clock (msec)         #    2.555 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.003 M/sec                  
+                77      page-faults               #    0.028 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001060688 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          3.290653      task-clock (msec)         #    2.846 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                76      page-faults               #    0.023 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001156276 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          2.943870      task-clock (msec)         #    2.468 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                77      page-faults               #    0.026 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001192697 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          2.747091      task-clock (msec)         #    2.683 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.003 M/sec                  
+                75      page-faults               #    0.027 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001023722 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+         16.075536      task-clock (msec)         #    5.411 CPUs utilized          
+                 6      context-switches          #    0.373 K/sec                  
+                 7      cpu-migrations            #    0.435 K/sec                  
+                76      page-faults               #    0.005 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.002971047 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          3.091730      task-clock (msec)         #    2.784 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                77      page-faults               #    0.025 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001110341 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          3.060065      task-clock (msec)         #    2.982 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                76      page-faults               #    0.025 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001026166 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 32 8 sem':
+
+          3.416767      task-clock (msec)         #    3.079 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.002 M/sec                  
+                77      page-faults               #    0.023 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001109610 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.085452      task-clock (msec)         #    4.702 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.988 K/sec                  
+                77      page-faults               #    0.011 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001506833 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.116737      task-clock (msec)         #    4.458 CPUs utilized          
+                 1      context-switches          #    0.141 K/sec                  
+                 7      cpu-migrations            #    0.984 K/sec                  
+                77      page-faults               #    0.011 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001596426 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.018345      task-clock (msec)         #    4.384 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.997 K/sec                  
+                77      page-faults               #    0.011 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001600731 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          8.522797      task-clock (msec)         #    4.920 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.821 K/sec                  
+                76      page-faults               #    0.009 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001732326 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.175299      task-clock (msec)         #    4.489 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.976 K/sec                  
+                77      page-faults               #    0.011 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001598502 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          9.065736      task-clock (msec)         #    4.203 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.772 K/sec                  
+                76      page-faults               #    0.008 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.002157025 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.844383      task-clock (msec)         #    4.608 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.892 K/sec                  
+                77      page-faults               #    0.010 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001702521 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.710986      task-clock (msec)         #    4.728 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.908 K/sec                  
+                76      page-faults               #    0.010 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001630791 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          8.812923      task-clock (msec)         #    4.933 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.794 K/sec                  
+                76      page-faults               #    0.009 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001786456 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 64 8 sem':
+
+          7.017527      task-clock (msec)         #    4.147 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.998 K/sec                  
+                76      page-faults               #    0.011 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.001692059 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         28.357878      task-clock (msec)         #    6.639 CPUs utilized          
+                 1      context-switches          #    0.035 K/sec                  
+                 7      cpu-migrations            #    0.247 K/sec                  
+                76      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.004271335 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         25.029453      task-clock (msec)         #    6.381 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.280 K/sec                  
+                76      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003922754 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         24.935109      task-clock (msec)         #    6.329 CPUs utilized          
+                 1      context-switches          #    0.040 K/sec                  
+                 7      cpu-migrations            #    0.281 K/sec                  
+                76      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003939556 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         24.731654      task-clock (msec)         #    6.408 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.283 K/sec                  
+                77      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003859701 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         25.154221      task-clock (msec)         #    6.578 CPUs utilized          
+                 1      context-switches          #    0.040 K/sec                  
+                 7      cpu-migrations            #    0.278 K/sec                  
+                74      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003823822 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         25.305204      task-clock (msec)         #    6.541 CPUs utilized          
+                 1      context-switches          #    0.040 K/sec                  
+                 7      cpu-migrations            #    0.277 K/sec                  
+                77      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003868830 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         24.752646      task-clock (msec)         #    6.457 CPUs utilized          
+                 1      context-switches          #    0.040 K/sec                  
+                 7      cpu-migrations            #    0.283 K/sec                  
+                76      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003833416 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         24.997011      task-clock (msec)         #    6.386 CPUs utilized          
+                 1      context-switches          #    0.040 K/sec                  
+                 7      cpu-migrations            #    0.280 K/sec                  
+                76      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003914072 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         23.907748      task-clock (msec)         #    6.308 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 7      cpu-migrations            #    0.293 K/sec                  
+                74      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003789783 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 128 8 sem':
+
+         24.435430      task-clock (msec)         #    6.481 CPUs utilized          
+                 1      context-switches          #    0.041 K/sec                  
+                 7      cpu-migrations            #    0.286 K/sec                  
+                77      page-faults               #    0.003 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.003770148 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         93.949309      task-clock (msec)         #    7.526 CPUs utilized          
+                 4      context-switches          #    0.043 K/sec                  
+                 7      cpu-migrations            #    0.075 K/sec                  
+                76      page-faults               #    0.809 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.012483500 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         93.245552      task-clock (msec)         #    7.535 CPUs utilized          
+                 4      context-switches          #    0.043 K/sec                  
+                 7      cpu-migrations            #    0.075 K/sec                  
+                76      page-faults               #    0.815 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.012374550 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         89.060044      task-clock (msec)         #    7.532 CPUs utilized          
+                 2      context-switches          #    0.022 K/sec                  
+                 7      cpu-migrations            #    0.079 K/sec                  
+                76      page-faults               #    0.853 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011824544 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         87.840448      task-clock (msec)         #    7.568 CPUs utilized          
+                 3      context-switches          #    0.034 K/sec                  
+                 7      cpu-migrations            #    0.080 K/sec                  
+                76      page-faults               #    0.865 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011607220 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         88.184516      task-clock (msec)         #    7.529 CPUs utilized          
+                 4      context-switches          #    0.045 K/sec                  
+                 7      cpu-migrations            #    0.079 K/sec                  
+                77      page-faults               #    0.873 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011712893 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         88.233912      task-clock (msec)         #    7.568 CPUs utilized          
+                 4      context-switches          #    0.045 K/sec                  
+                 7      cpu-migrations            #    0.079 K/sec                  
+                76      page-faults               #    0.861 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011658187 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         87.881563      task-clock (msec)         #    7.505 CPUs utilized          
+                 3      context-switches          #    0.034 K/sec                  
+                 7      cpu-migrations            #    0.080 K/sec                  
+                77      page-faults               #    0.876 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011709365 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         88.179281      task-clock (msec)         #    7.495 CPUs utilized          
+                 3      context-switches          #    0.034 K/sec                  
+                 7      cpu-migrations            #    0.079 K/sec                  
+                77      page-faults               #    0.873 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011764795 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         93.024585      task-clock (msec)         #    7.567 CPUs utilized          
+                 3      context-switches          #    0.032 K/sec                  
+                 7      cpu-migrations            #    0.075 K/sec                  
+                75      page-faults               #    0.806 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.012294001 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 256 8 sem':
+
+         87.877653      task-clock (msec)         #    7.522 CPUs utilized          
+                 3      context-switches          #    0.034 K/sec                  
+                 7      cpu-migrations            #    0.080 K/sec                  
+                76      page-faults               #    0.865 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.011682040 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        347.417733      task-clock (msec)         #    7.864 CPUs utilized          
+                 9      context-switches          #    0.026 K/sec                  
+                 7      cpu-migrations            #    0.020 K/sec                  
+                76      page-faults               #    0.219 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.044177729 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        346.422032      task-clock (msec)         #    7.867 CPUs utilized          
+                12      context-switches          #    0.035 K/sec                  
+                 7      cpu-migrations            #    0.020 K/sec                  
+                76      page-faults               #    0.219 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.044034028 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        360.231089      task-clock (msec)         #    7.758 CPUs utilized          
+                24      context-switches          #    0.067 K/sec                  
+                 7      cpu-migrations            #    0.019 K/sec                  
+                76      page-faults               #    0.211 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.046433065 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        359.111555      task-clock (msec)         #    7.720 CPUs utilized          
+                18      context-switches          #    0.050 K/sec                  
+                 7      cpu-migrations            #    0.019 K/sec                  
+                75      page-faults               #    0.209 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.046516326 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        346.882823      task-clock (msec)         #    7.858 CPUs utilized          
+                12      context-switches          #    0.035 K/sec                  
+                 7      cpu-migrations            #    0.020 K/sec                  
+                77      page-faults               #    0.222 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.044142450 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        358.176752      task-clock (msec)         #    7.812 CPUs utilized          
+                18      context-switches          #    0.050 K/sec                  
+                 7      cpu-migrations            #    0.020 K/sec                  
+                76      page-faults               #    0.212 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.045849154 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        638.210001      task-clock (msec)         #    5.818 CPUs utilized          
+                17      context-switches          #    0.027 K/sec                  
+                 8      cpu-migrations            #    0.013 K/sec                  
+                76      page-faults               #    0.119 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.109699585 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        454.735987      task-clock (msec)         #    7.645 CPUs utilized          
+                16      context-switches          #    0.035 K/sec                  
+                 7      cpu-migrations            #    0.015 K/sec                  
+                77      page-faults               #    0.169 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.059484450 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        462.390378      task-clock (msec)         #    7.624 CPUs utilized          
+                23      context-switches          #    0.050 K/sec                  
+                 7      cpu-migrations            #    0.015 K/sec                  
+                76      page-faults               #    0.164 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.060651037 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 512 8 sem':
+
+        449.043625      task-clock (msec)         #    7.666 CPUs utilized          
+                16      context-switches          #    0.036 K/sec                  
+                 7      cpu-migrations            #    0.016 K/sec                  
+                75      page-faults               #    0.167 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.058572251 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1793.180412      task-clock (msec)         #    7.619 CPUs utilized          
+                40      context-switches          #    0.022 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                76      page-faults               #    0.042 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.235357723 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1772.865907      task-clock (msec)         #    7.587 CPUs utilized          
+                46      context-switches          #    0.026 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                76      page-faults               #    0.043 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.233658706 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1768.580235      task-clock (msec)         #    7.620 CPUs utilized          
+                48      context-switches          #    0.027 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                76      page-faults               #    0.043 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.232103442 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1787.921906      task-clock (msec)         #    7.624 CPUs utilized          
+                33      context-switches          #    0.018 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                77      page-faults               #    0.043 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.234519240 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1769.353620      task-clock (msec)         #    7.536 CPUs utilized          
+                30      context-switches          #    0.017 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                77      page-faults               #    0.044 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.234778150 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1779.261524      task-clock (msec)         #    7.649 CPUs utilized          
+                32      context-switches          #    0.018 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                75      page-faults               #    0.042 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.232618054 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1793.076292      task-clock (msec)         #    7.192 CPUs utilized          
+                30      context-switches          #    0.017 K/sec                  
+                 8      cpu-migrations            #    0.004 K/sec                  
+                76      page-faults               #    0.042 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.249328632 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1871.472473      task-clock (msec)         #    6.040 CPUs utilized          
+                33      context-switches          #    0.018 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                77      page-faults               #    0.041 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.309833765 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1780.573840      task-clock (msec)         #    7.586 CPUs utilized          
+                33      context-switches          #    0.019 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                77      page-faults               #    0.043 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.234705429 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 1024 8 sem':
+
+       1784.744091      task-clock (msec)         #    7.158 CPUs utilized          
+                35      context-switches          #    0.020 K/sec                  
+                 7      cpu-migrations            #    0.004 K/sec                  
+                77      page-faults               #    0.043 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.249330328 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7478.651176      task-clock (msec)         #    6.568 CPUs utilized          
+                67      context-switches          #    0.009 K/sec                  
+                 9      cpu-migrations            #    0.001 K/sec                  
+                76      page-faults               #    0.010 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       1.138568784 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7158.829568      task-clock (msec)         #    7.374 CPUs utilized          
+                55      context-switches          #    0.008 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                75      page-faults               #    0.010 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.970802386 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       6998.668680      task-clock (msec)         #    7.450 CPUs utilized          
+                56      context-switches          #    0.008 K/sec                  
+                 9      cpu-migrations            #    0.001 K/sec                  
+                76      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.939457697 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7021.866555      task-clock (msec)         #    7.650 CPUs utilized          
+                42      context-switches          #    0.006 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                75      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.917855610 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7019.825505      task-clock (msec)         #    7.658 CPUs utilized          
+                48      context-switches          #    0.007 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                77      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.916641750 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7053.046882      task-clock (msec)         #    7.687 CPUs utilized          
+                54      context-switches          #    0.008 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                77      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.917546580 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7053.783474      task-clock (msec)         #    7.567 CPUs utilized          
+                42      context-switches          #    0.006 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                76      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.932174323 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7018.780345      task-clock (msec)         #    7.659 CPUs utilized          
+                60      context-switches          #    0.009 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                76      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.916407650 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7056.835840      task-clock (msec)         #    7.580 CPUs utilized          
+                61      context-switches          #    0.009 K/sec                  
+                 8      cpu-migrations            #    0.001 K/sec                  
+                76      page-faults               #    0.011 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.931016280 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 2048 8 sem':
+
+       7129.843733      task-clock (msec)         #    7.399 CPUs utilized          
+                57      context-switches          #    0.008 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+                74      page-faults               #    0.010 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       0.963584552 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      31136.849779      task-clock (msec)         #    6.692 CPUs utilized          
+                90      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.002 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       4.652602109 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      29787.676960      task-clock (msec)         #    6.981 CPUs utilized          
+                98      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       4.267001257 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      29095.149328      task-clock (msec)         #    7.853 CPUs utilized          
+               123      context-switches          #    0.004 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       3.704746545 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      30284.652138      task-clock (msec)         #    6.862 CPUs utilized          
+               106      context-switches          #    0.004 K/sec                  
+                 7      cpu-migrations            #    0.000 K/sec                  
+                74      page-faults               #    0.002 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       4.413326029 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      31574.941518      task-clock (msec)         #    6.852 CPUs utilized          
+               109      context-switches          #    0.003 K/sec                  
+                10      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.002 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       4.608368630 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      27888.625687      task-clock (msec)         #    7.572 CPUs utilized          
+                96      context-switches          #    0.003 K/sec                  
+                 7      cpu-migrations            #    0.000 K/sec                  
+                75      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       3.683344579 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      28048.694520      task-clock (msec)         #    7.673 CPUs utilized          
+                96      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       3.655556295 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      28104.936582      task-clock (msec)         #    7.684 CPUs utilized          
+                94      context-switches          #    0.003 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       3.657435660 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      28086.430232      task-clock (msec)         #    7.605 CPUs utilized          
+                93      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       3.693028903 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 4096 8 sem':
+
+      28600.922912      task-clock (msec)         #    7.193 CPUs utilized          
+                94      context-switches          #    0.003 K/sec                  
+                 7      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.003 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+       3.976151964 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     111483.506135      task-clock (msec)         #    7.563 CPUs utilized          
+               271      context-switches          #    0.002 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+                75      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.741013793 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     112277.265197      task-clock (msec)         #    7.598 CPUs utilized          
+               258      context-switches          #    0.002 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.778005490 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     112423.261711      task-clock (msec)         #    7.680 CPUs utilized          
+               273      context-switches          #    0.002 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                75      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.638643293 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     124185.045394      task-clock (msec)         #    7.060 CPUs utilized          
+               328      context-switches          #    0.003 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      17.589246022 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     112259.872116      task-clock (msec)         #    7.574 CPUs utilized          
+               265      context-switches          #    0.002 K/sec                  
+                 7      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.821985402 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     112477.664889      task-clock (msec)         #    7.565 CPUs utilized          
+               290      context-switches          #    0.003 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.868593008 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     111309.667172      task-clock (msec)         #    7.612 CPUs utilized          
+               284      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.623653034 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     112367.499078      task-clock (msec)         #    7.600 CPUs utilized          
+               254      context-switches          #    0.002 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.784554609 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     115634.066166      task-clock (msec)         #    7.501 CPUs utilized          
+               298      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      15.415103635 seconds time elapsed
+
+MODO = sem I/O e alloc. memoria
+
+ Performance counter stats for './mandelbrot_omp 0.175 0.375 -0.1 0.1 8192 8 sem':
+
+     112253.184300      task-clock (msec)         #    7.602 CPUs utilized          
+               272      context-switches          #    0.002 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+                77      page-faults               #    0.001 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+
+      14.766060163 seconds time elapsed
+
