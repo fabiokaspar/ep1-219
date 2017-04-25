@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # coding: utf8
 
-# Referencia de como fazer boxplot: 
-# http://blog.bharatbhole.com/creating-boxplots-with-matplotlib/
-
 # versão do python usada: Python 2.7.6
+
+#### Gera todos os boxplots
+#### uso: ./gera_boxplot.py
+
+#===================== Referencia de boxplot===================== 
+# http://blog.bharatbhole.com/creating-boxplots-with-matplotlib/
 
 from __future__ import unicode_literals
 
@@ -22,17 +25,14 @@ num_medicoes = 10
 num_entradas = 10
 lista_diretorios = ["mandelbrot_seq", "mandelbrot_pth", "mandelbrot_omp"]
 regioes = ['full', 'seahorse', 'elephant', 'triple_spiral']
+entradas = ['16', '32', '64', '128', '256', '512', '1024', '2048', '4096', '8192']
 
-
-entradas = ['16']
-rotulos = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-
-# calcula todos os tamanhos de entrada, mas como string
-while len(entradas) < num_entradas:
-	entradas.append(str(int(entradas[-1]) * 2))
-
+arq_med = open("medianas.txt", "w")
+arq_med.write("Entradas: 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192\n\n")
 
 ###################### parser dos tempos de cada arquivo #############################
+# cada arquivo .log tera um grafico
+
 for diretorio in lista_diretorios:
 	lista_arquivos = os.listdir("results/"+diretorio)
 
@@ -50,25 +50,18 @@ for diretorio in lista_diretorios:
 
 		# debug
 		print diretorio+"/"+arquivo
-		print len(numeros)
-		#print numeros
 		arq.close()
 
-		#################### gera o grafico ##########################
 
 		data_to_plot = []
-		media = []
 		mediana = []
-		dp = []
 
 		for j in range(0, num_entradas):
 			## define uma amostra
 			amostra = numeros[(num_medicoes * j) : (num_medicoes * (j+1))]
 			amostra.sort()
 
-			media.append(stat.mean(amostra))
 			mediana.append(stat.median(amostra))
-			dp.append(stat.stdev(amostra))
 
 			##  E a adiciona numa coleção global delas  
 			data_to_plot.append(amostra)
@@ -81,26 +74,10 @@ for diretorio in lista_diretorios:
 		box_plot = ax.boxplot(data_to_plot)
 
 
-		col_labels = ['média', 'mediana', 'desvio padrão', '< valor obs.', '> valor obs.']
-		row_labels = []
-		table_vals = []
 		maximo = 0
-
 		for j in range(num_entradas):
-			table_vals.append([ media[j], mediana[j], dp[j], data_to_plot[j][0], data_to_plot[j][-1] ])
-			row_labels.append('entr. '+ entradas[j])
-
-			if data_to_plot[j][-1] > maximo:
-				maximo = data_to_plot[j][-1]
-
-		the_table = plt.table(cellText=table_vals,
-                  colWidths = [0.1] * 5,
-                  rowLabels=row_labels,
-                  colLabels=col_labels,
-                  bbox=[0.1, 1.2, 0.8, 0.3],
-                  fontsize=24)
-
-		the_table.scale(1.8, 1.8)
+		 	if data_to_plot[j][-1] > maximo:
+		 		maximo = data_to_plot[j][-1]
 		
 		ax.set_xticklabels(entradas)
 		ax.yaxis.grid(True)
@@ -113,7 +90,7 @@ for diretorio in lista_diretorios:
 
 		for regiao in regioes:
 			lista = re.findall(regiao, arquivo)			
-			
+			# encontra o nome da regiao atual			
 			if len(lista) > 0:
 				title += regiao
 
@@ -127,8 +104,19 @@ for diretorio in lista_diretorios:
 
 		plt.title(title, fontsize=10)
 
+		############# codigo para imprimir as medianas em um txt ###############
+		arq_med.write(title+"\n")
+		arq_med.write('medianas: ')
+		j = 0
+		while j < len(mediana):
+			x = mediana[j]
+			mediana[j] = str(round(x, 2))
+			arq_med.write(mediana[j]+", ")
+			j += 1
+		arq_med.write("\n\n")
+		########################################################################
 
-		## Remove top axes and right axes ticks
+		## Remove marcadores de eixos
 		ax.get_xaxis().tick_bottom()
 		ax.get_yaxis().tick_left()
 
@@ -142,5 +130,8 @@ for diretorio in lista_diretorios:
 		
 		# Salva a figura
 		fig.savefig('graphics/'+diretorio+'/'+arquivo[0:-4]+'.png', bbox_inches='tight')
-
+																																																																																																																																																																				
 	print ''
+
+print '>> file medianas.txt'
+arq_med.close()

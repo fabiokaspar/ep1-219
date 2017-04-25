@@ -1,0 +1,14 @@
+LEIAME
+
+
+Gera todas as medições em arquivos .log para a pasta /results:
+$ ./run_measurements
+
+Gera todos os boxplots para a pasta /graphics:
+$ ./gera_boxplot.py
+
+Gera graficos logaritmizados no eixo y:
+$ ./gera_dilog.py
+
+Testa o módulo statistics.py:
+$ ./teste_stat.py

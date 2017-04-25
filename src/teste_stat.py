@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+########## testa o modulo statistics.py
+## uso: ./teste_stat.py
+
 import statistics as stat
 
 
